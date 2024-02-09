@@ -1,0 +1,857 @@
+{
+	"name": "SercheRBLX",
+	"className": "DataModel",
+	"filePaths": [
+		"default.project.json"
+	],
+	"children": [
+		{
+			"name": "ReplicatedStorage",
+			"className": "ReplicatedStorage",
+			"children": [
+				{
+					"name": "Source",
+					"className": "Folder",
+					"children": [
+						{
+							"name": "Fusion",
+							"className": "Folder",
+							"children": [
+								{
+									"name": "src",
+									"className": "ModuleScript",
+									"children": [
+										{
+											"name": "Animation",
+											"className": "Folder",
+											"children": [
+												{
+													"name": "getTweenRatio",
+													"className": "ModuleScript",
+													"children": [],
+													"filePaths": [
+														"src/ReplicatedStorage/Fusion/src/Animation/getTweenRatio.lua"
+													]
+												},
+												{
+													"name": "lerpType",
+													"className": "ModuleScript",
+													"children": [],
+													"filePaths": [
+														"src/ReplicatedStorage/Fusion/src/Animation/lerpType.lua"
+													]
+												},
+												{
+													"name": "packType",
+													"className": "ModuleScript",
+													"children": [],
+													"filePaths": [
+														"src/ReplicatedStorage/Fusion/src/Animation/packType.lua"
+													]
+												},
+												{
+													"name": "Spring",
+													"className": "ModuleScript",
+													"children": [],
+													"filePaths": [
+														"src/ReplicatedStorage/Fusion/src/Animation/Spring.lua"
+													]
+												},
+												{
+													"name": "springCoefficients",
+													"className": "ModuleScript",
+													"children": [],
+													"filePaths": [
+														"src/ReplicatedStorage/Fusion/src/Animation/springCoefficients.lua"
+													]
+												},
+												{
+													"name": "SpringScheduler",
+													"className": "ModuleScript",
+													"children": [],
+													"filePaths": [
+														"src/ReplicatedStorage/Fusion/src/Animation/SpringScheduler.lua"
+													]
+												},
+												{
+													"name": "Tween",
+													"className": "ModuleScript",
+													"children": [],
+													"filePaths": [
+														"src/ReplicatedStorage/Fusion/src/Animation/Tween.lua"
+													]
+												},
+												{
+													"name": "TweenScheduler",
+													"className": "ModuleScript",
+													"children": [],
+													"filePaths": [
+														"src/ReplicatedStorage/Fusion/src/Animation/TweenScheduler.lua"
+													]
+												},
+												{
+													"name": "unpackType",
+													"className": "ModuleScript",
+													"children": [],
+													"filePaths": [
+														"src/ReplicatedStorage/Fusion/src/Animation/unpackType.lua"
+													]
+												}
+											],
+											"filePaths": [
+												"src/ReplicatedStorage/Fusion/src/Animation"
+											]
+										},
+										{
+											"name": "Colour",
+											"className": "Folder",
+											"children": [
+												{
+													"name": "Oklab",
+													"className": "ModuleScript",
+													"children": [],
+													"filePaths": [
+														"src/ReplicatedStorage/Fusion/src/Colour/Oklab.lua"
+													]
+												}
+											],
+											"filePaths": [
+												"src/ReplicatedStorage/Fusion/src/Colour"
+											]
+										},
+										{
+											"name": "Dependencies",
+											"className": "Folder",
+											"children": [
+												{
+													"name": "captureDependencies",
+													"className": "ModuleScript",
+													"children": [],
+													"filePaths": [
+														"src/ReplicatedStorage/Fusion/src/Dependencies/captureDependencies.lua"
+													]
+												},
+												{
+													"name": "initDependency",
+													"className": "ModuleScript",
+													"children": [],
+													"filePaths": [
+														"src/ReplicatedStorage/Fusion/src/Dependencies/initDependency.lua"
+													]
+												},
+												{
+													"name": "sharedState",
+													"className": "ModuleScript",
+													"children": [],
+													"filePaths": [
+														"src/ReplicatedStorage/Fusion/src/Dependencies/sharedState.lua"
+													]
+												},
+												{
+													"name": "updateAll",
+													"className": "ModuleScript",
+													"children": [],
+													"filePaths": [
+														"src/ReplicatedStorage/Fusion/src/Dependencies/updateAll.lua"
+													]
+												},
+												{
+													"name": "useDependency",
+													"className": "ModuleScript",
+													"children": [],
+													"filePaths": [
+														"src/ReplicatedStorage/Fusion/src/Dependencies/useDependency.lua"
+													]
+												}
+											],
+											"filePaths": [
+												"src/ReplicatedStorage/Fusion/src/Dependencies"
+											]
+										},
+										{
+											"name": "Instances",
+											"className": "Folder",
+											"children": [
+												{
+													"name": "Children",
+													"className": "ModuleScript",
+													"children": [],
+													"filePaths": [
+														"src/ReplicatedStorage/Fusion/src/Instances/Children.lua"
+													]
+												},
+												{
+													"name": "defaultProps",
+													"className": "ModuleScript",
+													"children": [],
+													"filePaths": [
+														"src/ReplicatedStorage/Fusion/src/Instances/defaultProps.lua"
+													]
+												},
+												{
+													"name": "New",
+													"className": "ModuleScript",
+													"children": [],
+													"filePaths": [
+														"src/ReplicatedStorage/Fusion/src/Instances/New.lua"
+													]
+												},
+												{
+													"name": "OnChange",
+													"className": "ModuleScript",
+													"children": [],
+													"filePaths": [
+														"src/ReplicatedStorage/Fusion/src/Instances/OnChange.lua"
+													]
+												},
+												{
+													"name": "OnEvent",
+													"className": "ModuleScript",
+													"children": [],
+													"filePaths": [
+														"src/ReplicatedStorage/Fusion/src/Instances/OnEvent.lua"
+													]
+												},
+												{
+													"name": "Scheduler",
+													"className": "ModuleScript",
+													"children": [],
+													"filePaths": [
+														"src/ReplicatedStorage/Fusion/src/Instances/Scheduler.lua"
+													]
+												}
+											],
+											"filePaths": [
+												"src/ReplicatedStorage/Fusion/src/Instances"
+											]
+										},
+										{
+											"name": "Logging",
+											"className": "Folder",
+											"children": [
+												{
+													"name": "logError",
+													"className": "ModuleScript",
+													"children": [],
+													"filePaths": [
+														"src/ReplicatedStorage/Fusion/src/Logging/logError.lua"
+													]
+												},
+												{
+													"name": "logErrorNonFatal",
+													"className": "ModuleScript",
+													"children": [],
+													"filePaths": [
+														"src/ReplicatedStorage/Fusion/src/Logging/logErrorNonFatal.lua"
+													]
+												},
+												{
+													"name": "logWarn",
+													"className": "ModuleScript",
+													"children": [],
+													"filePaths": [
+														"src/ReplicatedStorage/Fusion/src/Logging/logWarn.lua"
+													]
+												},
+												{
+													"name": "messages",
+													"className": "ModuleScript",
+													"children": [],
+													"filePaths": [
+														"src/ReplicatedStorage/Fusion/src/Logging/messages.lua"
+													]
+												},
+												{
+													"name": "parseError",
+													"className": "ModuleScript",
+													"children": [],
+													"filePaths": [
+														"src/ReplicatedStorage/Fusion/src/Logging/parseError.lua"
+													]
+												}
+											],
+											"filePaths": [
+												"src/ReplicatedStorage/Fusion/src/Logging"
+											]
+										},
+										{
+											"name": "State",
+											"className": "Folder",
+											"children": [
+												{
+													"name": "Compat",
+													"className": "ModuleScript",
+													"children": [],
+													"filePaths": [
+														"src/ReplicatedStorage/Fusion/src/State/Compat.lua"
+													]
+												},
+												{
+													"name": "Computed",
+													"className": "ModuleScript",
+													"children": [],
+													"filePaths": [
+														"src/ReplicatedStorage/Fusion/src/State/Computed.lua"
+													]
+												},
+												{
+													"name": "ComputedPairs",
+													"className": "ModuleScript",
+													"children": [],
+													"filePaths": [
+														"src/ReplicatedStorage/Fusion/src/State/ComputedPairs.lua"
+													]
+												},
+												{
+													"name": "State",
+													"className": "ModuleScript",
+													"children": [],
+													"filePaths": [
+														"src/ReplicatedStorage/Fusion/src/State/State.lua"
+													]
+												}
+											],
+											"filePaths": [
+												"src/ReplicatedStorage/Fusion/src/State"
+											]
+										},
+										{
+											"name": "Types",
+											"className": "ModuleScript",
+											"children": [],
+											"filePaths": [
+												"src/ReplicatedStorage/Fusion/src/Types.lua"
+											]
+										},
+										{
+											"name": "Utility",
+											"className": "Folder",
+											"children": [
+												{
+													"name": "cleanup",
+													"className": "ModuleScript",
+													"children": [],
+													"filePaths": [
+														"src/ReplicatedStorage/Fusion/src/Utility/cleanup.lua"
+													]
+												},
+												{
+													"name": "cleanupOnDestroy",
+													"className": "ModuleScript",
+													"children": [],
+													"filePaths": [
+														"src/ReplicatedStorage/Fusion/src/Utility/cleanupOnDestroy.lua"
+													]
+												},
+												{
+													"name": "cleanupOnDestroy_smart",
+													"className": "ModuleScript",
+													"children": [],
+													"filePaths": [
+														"src/ReplicatedStorage/Fusion/src/Utility/cleanupOnDestroy_smart.lua"
+													]
+												},
+												{
+													"name": "None",
+													"className": "ModuleScript",
+													"children": [],
+													"filePaths": [
+														"src/ReplicatedStorage/Fusion/src/Utility/None.lua"
+													]
+												},
+												{
+													"name": "restrictRead",
+													"className": "ModuleScript",
+													"children": [],
+													"filePaths": [
+														"src/ReplicatedStorage/Fusion/src/Utility/restrictRead.lua"
+													]
+												}
+											],
+											"filePaths": [
+												"src/ReplicatedStorage/Fusion/src/Utility"
+											]
+										}
+									],
+									"filePaths": [
+										"src/ReplicatedStorage/Fusion/src/init.lua"
+									]
+								}
+							],
+							"filePaths": [
+								"src/ReplicatedStorage/Fusion"
+							]
+						},
+						{
+							"name": "Controllers",
+							"className": "Folder",
+							"children": [
+								{
+									"name": "MyNewController",
+									"className": "ModuleScript",
+									"children": [],
+									"filePaths": [
+										"src/ReplicatedStorage/Controllers/MyNewController/init.lua"
+									]
+								}
+							],
+							"filePaths": [
+								"src/ReplicatedStorage/Controllers"
+							]
+						}
+					],
+					"filePaths": [
+						"src/ReplicatedStorage",
+						"default.project.json"
+					]
+				},
+				{
+					"name": "Packages",
+					"className": "Folder",
+					"children": [
+						{
+							"name": "Knit",
+							"className": "ModuleScript",
+							"children": [],
+							"filePaths": [
+								"Packages/Knit.lua"
+							]
+						},
+						{
+							"name": "_Index",
+							"className": "Folder",
+							"children": [
+								{
+									"name": "evaera_promise@4.0.0",
+									"className": "Folder",
+									"children": [
+										{
+											"name": "promise",
+											"className": "ModuleScript",
+											"children": [
+												{
+													"name": "init.spec",
+													"className": "ModuleScript",
+													"children": [],
+													"filePaths": [
+														"Packages/_Index/evaera_promise@4.0.0/promise/lib/init.spec.lua"
+													]
+												}
+											],
+											"filePaths": [
+												"Packages/_Index/evaera_promise@4.0.0/promise/lib/init.lua",
+												"Packages/_Index/evaera_promise@4.0.0/promise/default.project.json"
+											]
+										}
+									],
+									"filePaths": [
+										"Packages/_Index/evaera_promise@4.0.0"
+									]
+								},
+								{
+									"name": "sleitnick_comm@1.0.1",
+									"className": "Folder",
+									"children": [
+										{
+											"name": "comm",
+											"className": "ModuleScript",
+											"children": [
+												{
+													"name": "Client",
+													"className": "ModuleScript",
+													"children": [
+														{
+															"name": "ClientComm",
+															"className": "ModuleScript",
+															"children": [],
+															"filePaths": [
+																"Packages/_Index/sleitnick_comm@1.0.1/comm/Client/ClientComm.lua"
+															]
+														},
+														{
+															"name": "ClientRemoteProperty",
+															"className": "ModuleScript",
+															"children": [],
+															"filePaths": [
+																"Packages/_Index/sleitnick_comm@1.0.1/comm/Client/ClientRemoteProperty.lua"
+															]
+														},
+														{
+															"name": "ClientRemoteSignal",
+															"className": "ModuleScript",
+															"children": [],
+															"filePaths": [
+																"Packages/_Index/sleitnick_comm@1.0.1/comm/Client/ClientRemoteSignal.lua"
+															]
+														}
+													],
+													"filePaths": [
+														"Packages/_Index/sleitnick_comm@1.0.1/comm/Client/init.lua"
+													]
+												},
+												{
+													"name": "Server",
+													"className": "ModuleScript",
+													"children": [
+														{
+															"name": "RemoteProperty",
+															"className": "ModuleScript",
+															"children": [],
+															"filePaths": [
+																"Packages/_Index/sleitnick_comm@1.0.1/comm/Server/RemoteProperty.lua"
+															]
+														},
+														{
+															"name": "RemoteSignal",
+															"className": "ModuleScript",
+															"children": [],
+															"filePaths": [
+																"Packages/_Index/sleitnick_comm@1.0.1/comm/Server/RemoteSignal.lua"
+															]
+														},
+														{
+															"name": "ServerComm",
+															"className": "ModuleScript",
+															"children": [],
+															"filePaths": [
+																"Packages/_Index/sleitnick_comm@1.0.1/comm/Server/ServerComm.lua"
+															]
+														}
+													],
+													"filePaths": [
+														"Packages/_Index/sleitnick_comm@1.0.1/comm/Server/init.lua"
+													]
+												},
+												{
+													"name": "Types",
+													"className": "ModuleScript",
+													"children": [],
+													"filePaths": [
+														"Packages/_Index/sleitnick_comm@1.0.1/comm/Types.lua"
+													]
+												},
+												{
+													"name": "Util",
+													"className": "ModuleScript",
+													"children": [],
+													"filePaths": [
+														"Packages/_Index/sleitnick_comm@1.0.1/comm/Util.lua"
+													]
+												},
+												{
+													"name": "wally",
+													"className": "ModuleScript",
+													"children": [],
+													"filePaths": [
+														"Packages/_Index/sleitnick_comm@1.0.1/comm/wally.toml"
+													]
+												}
+											],
+											"filePaths": [
+												"Packages/_Index/sleitnick_comm@1.0.1/comm/init.lua"
+											]
+										},
+										{
+											"name": "Option",
+											"className": "ModuleScript",
+											"children": [],
+											"filePaths": [
+												"Packages/_Index/sleitnick_comm@1.0.1/Option.lua"
+											]
+										},
+										{
+											"name": "Promise",
+											"className": "ModuleScript",
+											"children": [],
+											"filePaths": [
+												"Packages/_Index/sleitnick_comm@1.0.1/Promise.lua"
+											]
+										},
+										{
+											"name": "Signal",
+											"className": "ModuleScript",
+											"children": [],
+											"filePaths": [
+												"Packages/_Index/sleitnick_comm@1.0.1/Signal.lua"
+											]
+										}
+									],
+									"filePaths": [
+										"Packages/_Index/sleitnick_comm@1.0.1"
+									]
+								},
+								{
+									"name": "sleitnick_knit@1.6.0",
+									"className": "Folder",
+									"children": [
+										{
+											"name": "Comm",
+											"className": "ModuleScript",
+											"children": [],
+											"filePaths": [
+												"Packages/_Index/sleitnick_knit@1.6.0/Comm.lua"
+											]
+										},
+										{
+											"name": "knit",
+											"className": "ModuleScript",
+											"children": [
+												{
+													"name": "KnitClient",
+													"className": "ModuleScript",
+													"children": [],
+													"filePaths": [
+														"Packages/_Index/sleitnick_knit@1.6.0/knit/KnitClient.lua"
+													]
+												},
+												{
+													"name": "KnitServer",
+													"className": "ModuleScript",
+													"children": [],
+													"filePaths": [
+														"Packages/_Index/sleitnick_knit@1.6.0/knit/KnitServer.lua"
+													]
+												},
+												{
+													"name": "wally",
+													"className": "ModuleScript",
+													"children": [],
+													"filePaths": [
+														"Packages/_Index/sleitnick_knit@1.6.0/knit/wally.toml"
+													]
+												},
+												{
+													"name": "wally_bundle",
+													"className": "ModuleScript",
+													"children": [],
+													"filePaths": [
+														"Packages/_Index/sleitnick_knit@1.6.0/knit/wally_bundle.toml"
+													]
+												}
+											],
+											"filePaths": [
+												"Packages/_Index/sleitnick_knit@1.6.0/knit/init.lua"
+											]
+										},
+										{
+											"name": "Promise",
+											"className": "ModuleScript",
+											"children": [],
+											"filePaths": [
+												"Packages/_Index/sleitnick_knit@1.6.0/Promise.lua"
+											]
+										}
+									],
+									"filePaths": [
+										"Packages/_Index/sleitnick_knit@1.6.0"
+									]
+								},
+								{
+									"name": "sleitnick_option@1.0.5",
+									"className": "Folder",
+									"children": [
+										{
+											"name": "option",
+											"className": "ModuleScript",
+											"children": [
+												{
+													"name": "init.spec",
+													"className": "ModuleScript",
+													"children": [],
+													"filePaths": [
+														"Packages/_Index/sleitnick_option@1.0.5/option/init.spec.lua"
+													]
+												},
+												{
+													"name": "wally",
+													"className": "ModuleScript",
+													"children": [],
+													"filePaths": [
+														"Packages/_Index/sleitnick_option@1.0.5/option/wally.toml"
+													]
+												}
+											],
+											"filePaths": [
+												"Packages/_Index/sleitnick_option@1.0.5/option/init.lua"
+											]
+										}
+									],
+									"filePaths": [
+										"Packages/_Index/sleitnick_option@1.0.5"
+									]
+								},
+								{
+									"name": "sleitnick_signal@2.0.1",
+									"className": "Folder",
+									"children": [
+										{
+											"name": "signal",
+											"className": "ModuleScript",
+											"children": [
+												{
+													"name": "init.spec",
+													"className": "ModuleScript",
+													"children": [],
+													"filePaths": [
+														"Packages/_Index/sleitnick_signal@2.0.1/signal/init.spec.lua"
+													]
+												},
+												{
+													"name": "wally",
+													"className": "ModuleScript",
+													"children": [],
+													"filePaths": [
+														"Packages/_Index/sleitnick_signal@2.0.1/signal/wally.toml"
+													]
+												}
+											],
+											"filePaths": [
+												"Packages/_Index/sleitnick_signal@2.0.1/signal/init.lua"
+											]
+										}
+									],
+									"filePaths": [
+										"Packages/_Index/sleitnick_signal@2.0.1"
+									]
+								}
+							],
+							"filePaths": [
+								"Packages/_Index"
+							]
+						}
+					],
+					"filePaths": [
+						"Packages",
+						"default.project.json"
+					]
+				}
+			],
+			"filePaths": [
+				"default.project.json"
+			]
+		},
+		{
+			"name": "ServerScriptService",
+			"className": "ServerScriptService",
+			"children": [
+				{
+					"name": "Source",
+					"className": "Folder",
+					"children": [
+						{
+							"name": "KnitServerRuntime",
+							"className": "Script",
+							"children": [],
+							"filePaths": [
+								"src/ServerScriptService/KnitServerRuntime.lua"
+							]
+						},
+						{
+							"name": "Profile",
+							"className": "ModuleScript",
+							"children": [],
+							"filePaths": [
+								"src/ServerScriptService/Profile.lua"
+							]
+						},
+						{
+							"name": "QuestConfig",
+							"className": "ModuleScript",
+							"children": [],
+							"filePaths": [
+								"src/ServerScriptService/QuestConfig.lua"
+							]
+						}
+					],
+					"filePaths": [
+						"src/ServerScriptService",
+						"default.project.json"
+					]
+				}
+			],
+			"filePaths": [
+				"default.project.json"
+			]
+		},
+		{
+			"name": "ServerStorage",
+			"className": "ServerStorage",
+			"children": [
+				{
+					"name": "Source",
+					"className": "Folder",
+					"children": [
+						{
+							"name": "Services",
+							"className": "Folder",
+							"children": [
+								{
+									"name": "PlayerProfile",
+									"className": "ModuleScript",
+									"children": [],
+									"filePaths": [
+										"src/ServerStorage/Services/PlayerProfile/init.lua"
+									]
+								},
+								{
+									"name": "Quest",
+									"className": "ModuleScript",
+									"children": [],
+									"filePaths": [
+										"src/ServerStorage/Services/Quest/init.lua"
+									]
+								}
+							],
+							"filePaths": [
+								"src/ServerStorage/Services"
+							]
+						}
+					],
+					"filePaths": [
+						"src/ServerStorage",
+						"default.project.json"
+					]
+				}
+			],
+			"filePaths": [
+				"default.project.json"
+			]
+		},
+		{
+			"name": "StarterPlayer",
+			"className": "StarterPlayer",
+			"children": [
+				{
+					"name": "StarterCharacterScripts",
+					"className": "StarterCharacterScripts",
+					"children": [],
+					"filePaths": [
+						"src/StarterPlayer/StarterCharacterScripts",
+						"default.project.json"
+					]
+				},
+				{
+					"name": "StarterPlayerScripts",
+					"className": "StarterPlayerScripts",
+					"children": [
+						{
+							"name": "KnitClientRuntime",
+							"className": "LocalScript",
+							"children": [],
+							"filePaths": [
+								"src/StarterPlayer/StarterPlayerScripts/KnitClientRuntime.lua"
+							]
+						}
+					],
+					"filePaths": [
+						"src/StarterPlayer/StarterPlayerScripts",
+						"default.project.json"
+					]
+				}
+			],
+			"filePaths": [
+				"default.project.json"
+			]
+		}
+	]
+}

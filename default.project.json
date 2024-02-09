@@ -1,0 +1,44 @@
+{
+    "name": "SercheRBLX",
+    "port": 34873,
+    "build": "build/SercheRBLX.rbxl",
+    "tree": {
+        "$className": "DataModel",
+
+        "ReplicatedStorage": {
+            "$className": "ReplicatedStorage",
+            "Source": {
+                "$path": "src/ReplicatedStorage"
+            },
+            "Packages": {
+                "$path": "Packages"
+            }
+        },
+
+        "ServerScriptService": {
+            "$className": "ServerScriptService",
+            "Source": {
+                "$path": "src/ServerScriptService"
+            }
+        },
+
+        "ServerStorage": {
+            "$className": "ServerStorage",
+            "Source": {
+                "$path": "src/ServerStorage"
+            }
+        },
+
+        "StarterPlayer": {
+            "$className": "StarterPlayer",
+            "StarterCharacterScripts": {
+                "$className": "StarterCharacterScripts",
+                "$path": "src/StarterPlayer/StarterCharacterScripts"
+            },
+            "StarterPlayerScripts": {
+                "$className": "StarterPlayerScripts",
+                "$path": "src/StarterPlayer/StarterPlayerScripts"
+            }
+        }
+    }
+}
