@@ -21,9 +21,7 @@ local function FoundQuest(player, quest)
     QuestService:UpdateInfoGUI(player, PlayerProfileService:GetProp(player, "Quest"))
     PlayerProfileService:RemoveItem(player, quest.objective.Name)
     PlayerProfileService:RemoveQuest(player)
-    player:SetAttribute("FinishedMinigame", false)
-    QuestService:DeleteQuest(quest)
-    
+    player:SetAttribute("FinishedMinigame", false)    
 end
 
 local QuestGiver = {}

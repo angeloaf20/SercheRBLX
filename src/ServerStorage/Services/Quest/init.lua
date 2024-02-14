@@ -55,22 +55,10 @@ function QuestService:CreateQuest()
     return newQuest
 end
 
-function QuestService:StartQuest()
-    --start timer or something
-end
-
-function QuestService:EndQuest()
-    
-end
-
 function QuestService:AssignQuest()
     local playerTrig: Player = self.PlayerTriggered
     local PlayerProfileService = Knit.GetService("PlayerProfileService")
     PlayerProfileService:AssignQuest(playerTrig, self:CreateQuest())
-end
-
-function QuestService:DeleteQuest(quest)
-    quest = {}
 end
 
 function QuestService:UpdateInfoGUI(player, quest)

@@ -29,13 +29,13 @@ function UpdateGuiController:KnitInit()
 
     QuestService.InfoGui:Connect(function(quest)
         if QuestService.GivenQuest:Get() then
-            QuestGui.MainQuestFrame.CurrentReward.Text = quest.reward
-            QuestGui.MainQuestFrame.CurrentDescription.Text = quest.description
+            QuestGui:FindFirstChild("MainQuestFrame").CurrentReward.Text = quest.reward
+            QuestGui:FindFirstChild("MainQuestFrame").CurrentDescription.Text = `Go find the {quest.objective}`
             CreateHighlight(quest.location)  
         else
             RemoveHighlight(quest.location)  
-            QuestGui.MainQuestFrame.CurrentReward.Text = 0
-            QuestGui.MainQuestFrame.CurrentDescription.Text = "None"
+            QuestGui:FindFirstChild("MainQuestFrame").CurrentReward.Text = 0
+            QuestGui:FindFirstChild("MainQuestFrame").CurrentDescription.Text = "None"
         end
     end)
 end
