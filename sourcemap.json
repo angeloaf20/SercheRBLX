@@ -14,6 +14,98 @@
 					"className": "Folder",
 					"children": [
 						{
+							"name": "Components",
+							"className": "Folder",
+							"children": [
+								{
+									"name": "Door",
+									"className": "ModuleScript",
+									"children": [],
+									"filePaths": [
+										"src/ReplicatedStorage/Components/Door.lua"
+									]
+								},
+								{
+									"name": "Item",
+									"className": "ModuleScript",
+									"children": [],
+									"filePaths": [
+										"src/ReplicatedStorage/Components/Item.lua"
+									]
+								},
+								{
+									"name": "NPC",
+									"className": "Folder",
+									"children": [
+										{
+											"name": "QuestGiver",
+											"className": "ModuleScript",
+											"children": [],
+											"filePaths": [
+												"src/ReplicatedStorage/Components/NPC/QuestGiver.lua"
+											]
+										}
+									],
+									"filePaths": [
+										"src/ReplicatedStorage/Components/NPC"
+									]
+								},
+								{
+									"name": "Profile",
+									"className": "ModuleScript",
+									"children": [],
+									"filePaths": [
+										"src/ReplicatedStorage/Components/Profile.lua"
+									]
+								}
+							],
+							"filePaths": [
+								"src/ReplicatedStorage/Components"
+							]
+						},
+						{
+							"name": "Configs",
+							"className": "Folder",
+							"children": [
+								{
+									"name": "QuestConfig",
+									"className": "ModuleScript",
+									"children": [],
+									"filePaths": [
+										"src/ReplicatedStorage/Configs/QuestConfig.lua"
+									]
+								}
+							],
+							"filePaths": [
+								"src/ReplicatedStorage/Configs"
+							]
+						},
+						{
+							"name": "Controllers",
+							"className": "Folder",
+							"children": [
+								{
+									"name": "MinigameController",
+									"className": "ModuleScript",
+									"children": [],
+									"filePaths": [
+										"src/ReplicatedStorage/Controllers/MinigameController.lua"
+									]
+								},
+								{
+									"name": "UpdateGuiController",
+									"className": "ModuleScript",
+									"children": [],
+									"filePaths": [
+										"src/ReplicatedStorage/Controllers/UpdateGuiController.lua"
+									]
+								}
+							],
+							"filePaths": [
+								"src/ReplicatedStorage/Controllers"
+							]
+						},
+						{
 							"name": "Fusion",
 							"className": "Folder",
 							"children": [
@@ -381,23 +473,6 @@
 							"filePaths": [
 								"src/ReplicatedStorage/Fusion"
 							]
-						},
-						{
-							"name": "Controllers",
-							"className": "Folder",
-							"children": [
-								{
-									"name": "MyNewController",
-									"className": "ModuleScript",
-									"children": [],
-									"filePaths": [
-										"src/ReplicatedStorage/Controllers/MyNewController/init.lua"
-									]
-								}
-							],
-							"filePaths": [
-								"src/ReplicatedStorage/Controllers"
-							]
 						}
 					],
 					"filePaths": [
@@ -415,6 +490,14 @@
 							"children": [],
 							"filePaths": [
 								"Packages/Knit.lua"
+							]
+						},
+						{
+							"name": "Signal",
+							"className": "ModuleScript",
+							"children": [],
+							"filePaths": [
+								"Packages/Signal.lua"
 							]
 						},
 						{
@@ -581,7 +664,7 @@
 									]
 								},
 								{
-									"name": "sleitnick_knit@1.6.0",
+									"name": "sleitnick_knit@1.7.0",
 									"className": "Folder",
 									"children": [
 										{
@@ -589,7 +672,7 @@
 											"className": "ModuleScript",
 											"children": [],
 											"filePaths": [
-												"Packages/_Index/sleitnick_knit@1.6.0/Comm.lua"
+												"Packages/_Index/sleitnick_knit@1.7.0/Comm.lua"
 											]
 										},
 										{
@@ -601,7 +684,7 @@
 													"className": "ModuleScript",
 													"children": [],
 													"filePaths": [
-														"Packages/_Index/sleitnick_knit@1.6.0/knit/KnitClient.lua"
+														"Packages/_Index/sleitnick_knit@1.7.0/knit/KnitClient.lua"
 													]
 												},
 												{
@@ -609,7 +692,7 @@
 													"className": "ModuleScript",
 													"children": [],
 													"filePaths": [
-														"Packages/_Index/sleitnick_knit@1.6.0/knit/KnitServer.lua"
+														"Packages/_Index/sleitnick_knit@1.7.0/knit/KnitServer.lua"
 													]
 												},
 												{
@@ -617,7 +700,7 @@
 													"className": "ModuleScript",
 													"children": [],
 													"filePaths": [
-														"Packages/_Index/sleitnick_knit@1.6.0/knit/wally.toml"
+														"Packages/_Index/sleitnick_knit@1.7.0/knit/wally.toml"
 													]
 												},
 												{
@@ -625,12 +708,12 @@
 													"className": "ModuleScript",
 													"children": [],
 													"filePaths": [
-														"Packages/_Index/sleitnick_knit@1.6.0/knit/wally_bundle.toml"
+														"Packages/_Index/sleitnick_knit@1.7.0/knit/wally_bundle.toml"
 													]
 												}
 											],
 											"filePaths": [
-												"Packages/_Index/sleitnick_knit@1.6.0/knit/init.lua"
+												"Packages/_Index/sleitnick_knit@1.7.0/knit/init.lua"
 											]
 										},
 										{
@@ -638,12 +721,12 @@
 											"className": "ModuleScript",
 											"children": [],
 											"filePaths": [
-												"Packages/_Index/sleitnick_knit@1.6.0/Promise.lua"
+												"Packages/_Index/sleitnick_knit@1.7.0/Promise.lua"
 											]
 										}
 									],
 									"filePaths": [
-										"Packages/_Index/sleitnick_knit@1.6.0"
+										"Packages/_Index/sleitnick_knit@1.7.0"
 									]
 								},
 								{
@@ -745,22 +828,6 @@
 							"filePaths": [
 								"src/ServerScriptService/KnitServerRuntime.lua"
 							]
-						},
-						{
-							"name": "Profile",
-							"className": "ModuleScript",
-							"children": [],
-							"filePaths": [
-								"src/ServerScriptService/Profile.lua"
-							]
-						},
-						{
-							"name": "QuestConfig",
-							"className": "ModuleScript",
-							"children": [],
-							"filePaths": [
-								"src/ServerScriptService/QuestConfig.lua"
-							]
 						}
 					],
 					"filePaths": [
@@ -785,6 +852,38 @@
 							"name": "Services",
 							"className": "Folder",
 							"children": [
+								{
+									"name": "Door",
+									"className": "ModuleScript",
+									"children": [],
+									"filePaths": [
+										"src/ServerStorage/Services/Door/init.lua"
+									]
+								},
+								{
+									"name": "Interaction",
+									"className": "ModuleScript",
+									"children": [],
+									"filePaths": [
+										"src/ServerStorage/Services/Interaction/init.lua"
+									]
+								},
+								{
+									"name": "Item",
+									"className": "ModuleScript",
+									"children": [],
+									"filePaths": [
+										"src/ServerStorage/Services/Item/init.lua"
+									]
+								},
+								{
+									"name": "NPC",
+									"className": "ModuleScript",
+									"children": [],
+									"filePaths": [
+										"src/ServerStorage/Services/NPC/init.lua"
+									]
+								},
 								{
 									"name": "PlayerProfile",
 									"className": "ModuleScript",
